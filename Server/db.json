@@ -1,0 +1,70 @@
+{
+  "contacts": [
+    {
+      "id": "D6BNdWnHI",
+      "name": "John Doe",
+      "company": "YouTube",
+      "email": "john@gmail.com",
+      "title": "youtuber",
+      "mobile": "08076546787",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0g8R5VmgqDqpRCwQfw2Y9V-DM-iXS59R9hQ&usqp=CAU",
+      "groupId": "3"
+    },
+    {
+      "id": "TVobxeKbI",
+      "name": "Gift Abah",
+      "company": "Friend",
+      "email": "gift@gmail.com",
+      "title": "freelancer",
+      "mobile": "08080099918",
+      "photo": "data:image/png;base64,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",
+      "groupId": "2"
+    },
+    {
+      "id": "UyEDV5Yds",
+      "name": "Pat Paul",
+      "company": "Service",
+      "email": "pat@gmail.com",
+      "title": "Electrician",
+      "mobile": "9876546787",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbsapP2oPnuPLgNXRYMeDZQgF8tyGEYWoyOw&usqp=CAU",
+      "groupId": "4"
+    },
+    {
+      "name": "Babe Hope",
+      "photo": "https://icons.iconarchive.com/icons/graphicloads/colorful-long-shadow/256/User-icon.png",
+      "mobile": "08044682464",
+      "email": "hope@gmail.com",
+      "company": "Urban Luxury ",
+      "title": "Fashion Designer ",
+      "groupId": "3",
+      "id": "kmH19JG"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "Colleague"
+    },
+    {
+      "id": "2",
+      "name": "Friend"
+    },
+    {
+      "id": "3",
+      "name": "Family"
+    },
+    {
+      "id": "4",
+      "name": "Service"
+    },
+    {
+      "id": "5",
+      "name": "Community"
+    },
+    {
+      "id": "6",
+      "name": "Social"
+    }
+  ]
+}
