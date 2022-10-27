@@ -70,7 +70,7 @@ const EditContact = () => {
     }
   };
 
-  let { loading, contact, groups, errorMessage } = state;
+  let { loading, contact, groups } = state;
 
   return (
     <>
@@ -193,7 +193,7 @@ const EditContact = () => {
                   </form>
                 </div>
                 <div className="col-md-6">
-                  <img src={contact.photo} />
+                  <img src={contact.photo} alt="" />
                 </div>
               </div>
             </>

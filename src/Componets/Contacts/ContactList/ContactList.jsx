@@ -75,7 +75,7 @@ const ContactList = () => {
     });
   };
 
-  let { loading, contacts, filteredContacts, errorMessage } = state;
+  let { loading, filteredContacts } = state;
 
   return (
     <>

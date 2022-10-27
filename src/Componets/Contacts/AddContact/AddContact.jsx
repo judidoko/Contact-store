@@ -18,7 +18,7 @@ const AddContact = () => {
       groupId: "",
     },
     groups: [],
-    errorMessage: "",
+    errorMessage: "error.message",
   });
 
   let updateInput = (event) => {
@@ -43,7 +43,7 @@ const AddContact = () => {
         });
       } catch (error) {}
     })();
-  }, []);
+  }, [""]);
 
   const SubmitForm = async (event) => {
     event.preventDefault();
@@ -58,7 +58,7 @@ const AddContact = () => {
     }
   };
 
-  let { loading, contact, errorMessage, groups } = state;
+  let { loading, contact, groups } = state;
 
   return (
     <>

@@ -35,7 +35,7 @@ const ViewContact = () => {
     })();
   }, [contactId]);
 
-  let { loading, contact, errorMessage, group } = state;
+  let { loading, contact, group } = state;
 
   return (
     <>
