@@ -13,6 +13,9 @@
 .contact-info {
   font-size: 15px;
 }
+.contact_list-btn {
+  align-items: center !important;
+}
 .contact_list-btn .btn {
   padding: 3px;
 }
@@ -21,4 +24,13 @@
   width: 300px;
   height: 300px;
   border-radius: 50%;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .contact_list-btn {
+    align-items: normal !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
 }

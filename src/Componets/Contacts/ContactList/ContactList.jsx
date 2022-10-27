@@ -148,7 +148,7 @@ const ContactList = () => {
                         <div className="card my-2">
                           <div className="card-body">
                             <div className="row align-items-center d-flex justify-content-around">
-                              <div className="col-md-4">
+                              <div className="col-md-4 p-2">
                                 <img
                                   src={contact.photo}
                                   alt=""
@@ -177,7 +177,7 @@ const ContactList = () => {
                                   </li>
                                 </ul>
                               </div>
-                              <div className="col-md-1 d-flex flex-column align-items-center contact_list-btn">
+                              <div className="col-md-1 d-flex flex-column contact_list-btn">
                                 <Link
                                   to={`/contacts/view/${contact.id}`}
                                   className="btn btn-warning my-1"
