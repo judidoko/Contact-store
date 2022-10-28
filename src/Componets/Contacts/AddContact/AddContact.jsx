@@ -43,7 +43,9 @@ const AddContact = () => {
         });
       } catch (error) {}
     })();
-  }, [""]);
+
+    //  eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const SubmitForm = async (event) => {
     event.preventDefault();

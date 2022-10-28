@@ -33,6 +33,7 @@ const ViewContact = () => {
         });
       }
     })();
+    //  eslint-disable-next-line react-hooks/exhaustive-deps
   }, [contactId]);
 
   let { loading, contact, group } = state;

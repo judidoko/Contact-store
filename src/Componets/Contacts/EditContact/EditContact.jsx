@@ -42,6 +42,7 @@ const EditContact = () => {
         });
       }
     })();
+    //  eslint-disable-next-line react-hooks/exhaustive-deps
   }, [contactId]);
 
   let updateInput = (event) => {
